@@ -1,0 +1,13 @@
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #666;
+    color: $white;
+
+    > .container{
+        display: grid;
+        place-content: center;
+        padding: 1rem;
+    }
+}
