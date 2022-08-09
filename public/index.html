@@ -8,7 +8,7 @@
     <title>Text File Reader</title>
 
     <link rel="stylesheet" href="styles/style.css">
-    <script src="main.js"></script>
+    <script src="../src/main.js"></script>
 </head>
 <body>
 
@@ -33,8 +33,11 @@
             <div class="file-section">
 
                 <!-- FILE UPLOAD -->
-                <input class="file-upload" type="file" id="file">
-                <label for="file">Upload PDF</label>
+                <form action="">
+                    <input class="file-upload" name="file" type="file" id="file">
+                    <label for="file">Choose PDF...</label>
+                    <button class="upload-btn">Upload</button>
+                </form>
 
                 <!-- GENERATED TEXT -->
                 <textarea class="text-field" placeholder="Text goes here..."></textarea>
