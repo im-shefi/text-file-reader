@@ -7,8 +7,3 @@ const app = express();
 
 app.use("/", express.static("dist"));
 app.use(fileUpload());
-
-app.post('/upload', function(req, res){
-    let file;
-    let path;
-});

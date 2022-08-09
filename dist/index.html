@@ -33,10 +33,10 @@
             <div class="file-section">
 
                 <!-- FILE UPLOAD -->
-                <form action="">
-                    <input class="file-upload" name="file" type="file" id="file">
+                <form action="/upload" method="post" encType="multipart/form-data">
+                    <input class="file-upload" name="file" type="file" id="file" accept="application/pdf">
                     <label for="file">Choose PDF...</label>
-                    <button class="upload-btn">Upload</button>
+                    <input type="submit" class="upload-btn" value="Upload"></input>
                 </form>
 
                 <!-- GENERATED TEXT -->
